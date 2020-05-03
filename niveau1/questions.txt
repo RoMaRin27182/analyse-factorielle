@@ -1,0 +1,534 @@
+
+
+
+
+
+
+
+Que représente le symbole:
+
+X
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Le symbole X représente une matrice de données brutes.
+
+
+
+
+
+
+Étant donnée une matrice X, que représentent les symboles
+
+p
+
+N
+?
+
+
+Le symbole p représente le nombre de variables (traits, attributs) et aussi le nombre de colonnes.
+(une variable = une colonne)
+Le symbole N représente le nombre de spécimens, observations, objets et aussi le nombre de rangées.
+(un spécimen = une rangée)
+
+
+
+
+
+
+Que représente le symbole:
+
+Y
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+
+
+Le symbole Y représente une matrice formée des  écarts par rapport à la moyenne de chacune des colonnes (variables) de la matrice X.
+
+
+
+
+
+
+Que représente le symbole:
+
+Z
+
+
+
+
+
+?
+
+
+Z représente la matrice de données standardisées.
+Les données standardisées s’obtiennent à partir de la matrice de données X en calculant  l’écart de chaque donnée	à la moyenne divisé par l’écart standard (s) de la variable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exprimez sous forme matricielle la relation entre Z et Y.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Relation entre Z et Y:
+
+			
+où
+
+Y = matrice des écarts
+
+DV = matrice diagonale des variances
+
+
+
+
+
+
+Que représente le symbole:
+
+C
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+Le symbole C représente une matrice carrée.
+
+C a donc autant de colonnes que de rangées. (p = N)
+
+
+
+
+
+
+Que représente le symbole:
+
+Q
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+Le symbole Q représente une matrice orthonormale. Tous les vecteurs colonne de Q sont normalisés (longueur = 1) et ils sont mutuellement orthogonaux. Par conséquent:
+Q’Q = I et QQ’ = I
+
+
+
+
+
+
+
+Que représente le symbole:
+
+D
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+Le symbole D représente une matrice diagonale.
+
+D est carrée et toutes ses entrées qui ne sont pas situées sur sa diagonale sont nulles.
+
+
+
+
+
+
+Que représente le symbole:
+
+R
+
+
+?
+
+
+
+
+
+
+
+
+
+
+Le symbole R représente
+n’importe quelle matrice symétrique de valeurs réelles.
+
+
+
+
+
+
+Que représente le symbole:
+
+RC
+
+?
+
+
+
+
+
+
+
+
+
+
+Le symbole RC représente la matrice (symétrique) des corrélations entre les variables.
+
+
+
+
+
+
+S = Y’Y/(N-1)
+
+Par quel nom désigne-t-on la matrice S?
+
+
+
+
+
+
+S = Y’Y/(N-1)
+
+La matrice S est la matrice des variances/covariances
+
+
+
+
+
+Que représente le symbole:
+
+
+?
+
+
+?
+
+
+
+
+
+
+
+
+
+
+?
+représente la matrice diagonale dont la diagonale est formée des valeurs propres de R.
+
+
+
+? =	?1	0
+0	?2
+
+
+
+
+
+
+Que représente le symbole:
+
+’
+
+
+?
+
+
+
+
+
+
+
+
+
+
+
+Le symbole ’ représente la
+transposition d’une matrice quelconque M. La transposition consiste à mettre les colonnes à la place des rangées de M et vice-versa. Le résultat est noté M’.
+
+
+
+
+
+Quel est l’effet de multiplier à droite une matrice M par une matrice diagonale D?
+
+M D = ?
+Quel est l’effet de multiplier à gauche une matrice M par une matrice diagonale D?
+
+D M	= ?
+
+
+
+M D = ?
+La colonne #1 de M sera multipliée par la valeur #1 de la diagonale de D (d11). La colonne #2 de M sera multipliée par d22, etc.
+
+D M = ?
+La rangée #1 de M sera multipliée par la valeur #1 de la diagonale de D (d11). La rangée #2 de M sera multipliée par d22, etc.
+
+
+
+
+
+
+
+Écrivez la relation matricielle entre la matrice des corrélations R et la matrice des données standardisées Z.
+
+Quel est le lien entre R et S?
+
+
+
+
+
+R = Z’Z/(N-1)
+
+Cette relation est de la même forme que celle qui décrit la matrice S des variances/covariances en fonction de la matrice des écarts Y:
+S = Y’Y/(N-1)
+
+
+
+
+
+Que représentent les symboles:
+
+U et V
+
+
+
+
+
+?
+
+
+
+
+
+
+
+
+
+
+
+
+
+Les symboles U et V représentent des matrices de vecteurs propres
+
+
+
+
+Que représente le symbole:
+
+
+?
+
+
+
+?
+
+
+
+
+
+?
+représente la matrice diagonale dont la diagonale est formée des valeurs singulières c.-à-d. des racines carrées des valeurs propres de R.
+
+?1	0
+? =	0	?2
+
+
+
+
+
+
+
+
+E=X’X
+
+
+Quel est le nom de la matrice E?
+
+Décrivez l’entrée Eij ?
+
+
+
+
+
+
+
+
+E=X’X
+
+
+E est le produit mineur de X
+
+Eij est la somme du produit des colonnes i et j.
+
+
+
+
+
+
+
+
+
+E=X’X
+Quelle catégorie de matrices décrit le plus précisément la matrice E?
+
+Quelle est la dimension de
+E?
+
+
+
+
+
+E est symétrique puisque Som(colonne i x colonne j) = Som(colonne j x colonne i) et donc	Eij =Eji
+Puisque la dimension de X est p x N   la dimension de 
+E = X’X	est 
+(p x N)	x (N x p)
+= p x p
+ 		
+
+
+
+
+
+
+
+
+E=XX’
+
+
+Le nom de la matrice E?
+Décrivez l’entrée Eij ?
+
+
+
+
+
+
+
+
+
+E=XX’
+
+
+E est le produit majeur de X
+
+Eij est la somme du produit des rangées i et j.
+
+
+
+
+
+
+E=XX’
+Quelle catégorie de matrices décrit le plus précisément la matrice E?
+
+Quelle est la dimension de E?
+
+
+
+
+
+E est symétrique puisque Som(rangée i x rangée j) = Som(rangée j x rangée i) et donc	Eij =Eji
+Puisque la dimension de X est p x N
+alors la dimension de E = XX’ est (N x p) x (p x N)
+= N x N
+
+
+
+
+
+
+Décrivez le résultat de
+l’application de l’opération diag sur une matrice carrée C.
+
+diag (C) = 
+
+?
+
+
+
+
+
+
+
+
+
+L’application de l’opération diag sur une matrice carrée C produit une matrice carrée de même diagonale que celle de C mais dont les entrées non-diagonales sont égales à 0.
