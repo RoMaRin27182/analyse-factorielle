@@ -1,3 +1,4 @@
-function ma_fonction() {
-  alert("Et hop !");
-}
+$(function(){
+$(".question").hide();
+$(".reponse").hide();
+});

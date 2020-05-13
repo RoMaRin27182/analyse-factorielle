@@ -3,13 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>Analyse Factorielle</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="scripts/script.js"></script>
+
   </head>
   <body>
-    <img src="../images/mathematics-989125_640.jpg" width="400" alt="image nombres">
+    <img src="../images/mathematics-989125_640.jpg"  alt="image nombres">
     <h1> Testez vos connaissances sur l'algèbre matricielle! </h1>
-    <button onclick="ma_fonction();">Clic</button>
+
+    <button id=commence> Commencer! </button>
+
+    <div class=question> Que représente le symbole: <br> <em> X </em>
+      <br> ? </div>
+    <div class=reponse> Le symbole X représente une matrice de données brutes. </div>
+
+    <div class=question> Étant donnée une matrice X, que représentent les symboles <br>
+      p <br> N <br>? </div>
+    <div class=reponse> Le symbole p représente le nombre de variables (traits, attributs) et aussi le nombre de colonnes.
+(une variable = une colonne)
+Le symbole N représente le nombre de spécimens, observations, objets et aussi le nombre de rangées.
+(un spécimen = une rangée) </div>
+
+<div class=question> Que représente le symbole: <br> <em> Y </em>
+  <br> ? </div>
+<div class=reponse> Le symbole Y représente une matrice formée des  écarts par rapport
+  à la moyenne de chacune des colonnes (variables) de la matrice X. </div>
+
+  <div class=question> Que représente le symbole: <br> <em> Z </em>
+    <br> ? </div>
+  <div class=reponse> Z représente la matrice de données standardisées.
+Les données standardisées s’obtiennent à partir de la matrice de données X en calculant  l’écart de
+chaque donnée	à la moyenne divisé par l’écart standard (s) de la variable. </div>
+
 
   </body>
 </html>

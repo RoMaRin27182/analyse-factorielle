@@ -1,11 +1,71 @@
-p {
-  color: blue;
-}
+img { display: block;
+   margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
 
 body {
   width: 800px;
   margin: 0 auto;
   background-color: #52CBFF;
   padding: 0 20px 20px 20px;
-  border: 5px solid blue;
+  border: 2px solid blue;
+  font-family: mathematics;
+  color:#00308F;
+}
+
+.question{
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 80px;
+  background-color:#87bdd8;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid blue;
+  color:#00308F;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.reponse{
+ margin-top: 100px;
+ margin-bottom: 100px;
+ margin-right: 150px;
+ margin-left: 80px;
+  background-color:#87bdd8;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid blue;
+  color:#00308F;
+  text-align: center;
+  font-size: 1.4em;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+#commence{
+  margin: auto;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+#commence:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+#commence:active {
+	position:relative;
+	top:1px;
+}
+
 }
