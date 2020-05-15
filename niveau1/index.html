@@ -14,8 +14,6 @@
     <img src="../images/mathematics-989125_640.jpg" alt="image nombres">
     <h1> Testez vos connaissances sur l'algèbre matricielle! </h1>
 
-    <button class="bouton" id="commencer" style="display: block"> Commencer! </button>
-
     <div class="question"> Que représente le symbole: <br> <em> X </em>
         <br> ? </div>
     <div class="reponse"> Le symbole X représente une matrice de données brutes. </div>
@@ -32,8 +30,25 @@
         <br> ? </div>
     <div class="reponse"> Z représente la matrice de données standardisées. Les données standardisées s’obtiennent à partir de la matrice de données X en calculant l’écart de chaque donnée à la moyenne divisé par l’écart standard (s) de la variable. </div>
 
+    <button class="bouton" id="commencer" style="display: block"> Commencer! </button>
+
     <button id="repondre" class="bouton" > Réponse </button>
 
+    <button id="ok" class="bouton" > OK </button>
+
+  <div id = "autoeval" class="container">
+    <h3> Auto-évaluation </h3>
+  <form id="autoevaluation">
+  <input type="radio" id="pasdutout" name="score" value="0">
+  <label for="pasdutout">Je ne connaissais pas la réponse</label><br>
+  <input type="radio" id="unpeu" name="score" value="1">
+  <label for="unpeu">Je connaissais en partie la réponse</label><br>
+  <input type="radio" id="tresbien" name="score" value="2">
+  <label for="tresbien">Je connaissais la réponse</label>
+</form>
+<button id="okeval" class="bouton" > OK </button>
+</div>
+<div id="evaluation"></div>
 
 </body>
 
